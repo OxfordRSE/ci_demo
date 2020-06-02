@@ -15,7 +15,7 @@ setup(
 
     license='MIT',
 
-    packages=['ci-demo'],
+    packages=['ci_demo'],
 
     install_requires=[
     ],

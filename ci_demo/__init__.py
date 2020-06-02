@@ -1,2 +1,1 @@
-def greet():
-    return 'Hello'
+from .functionality import greet
