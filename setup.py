@@ -24,7 +24,6 @@ setup(
         'docs': [
         ],
         'dev': [
-            # Flake8 for code style checking
             'flake8',
         ],
     },
