@@ -1,12 +1,11 @@
 import numbers
 
 
-def greet():
-    return 'Hello'
+def greet(name=""):
+    return f"Hello {name}"
 
 
 def minimum(*args):
-
     if not any([isinstance(arg, numbers.Real) for arg in args]):
         return
 

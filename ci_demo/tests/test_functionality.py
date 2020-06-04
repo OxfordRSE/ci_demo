@@ -6,8 +6,8 @@ import ci_demo
 class TestFunctionality(unittest.TestCase):
 
     def test_greeting(self):
-        greeting = ci_demo.greet()
-        self.assertEqual(greeting, "Hello")
+        self.assertEqual(ci_demo.greet(), "Hello ")
+        self.assertEqual(ci_demo.greet("Fergus"), "Hello Fergus")
 
     def test_minimum(self):
         self.assertEqual(ci_demo.minimum(1, 2, 3), 1)
