@@ -22,6 +22,7 @@ setup(
 
     extras_require={
         'docs': [
+            'sphinx'
         ],
         'dev': [
             'flake8',
