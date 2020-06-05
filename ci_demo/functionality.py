@@ -8,7 +8,7 @@ def greet(name=""):
     :param name: the name to greet
     :return: the greeting
     """
-    return f"Hello {name}"
+    return "Hello " + name
 
 
 def minimum(*args):
