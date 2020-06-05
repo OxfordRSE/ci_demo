@@ -28,7 +28,7 @@ jobs:
 
       - name: Run coverage
         run: |
-          coverage run -m unittest
+          coverage run -m unittest --branch
 
       - name: Run codecov
         if: success()
