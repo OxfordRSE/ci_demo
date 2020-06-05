@@ -14,6 +14,8 @@ class TestFunctionality(unittest.TestCase):
         self.assertEqual(ci_demo.minimum(1.2, 2.3), 1.2)
         self.assertEqual(ci_demo.minimum(-1.2, -3), -3)
 
+        self.assertIsNone(ci_demo.minimum())
+
 
 if __name__ == '__main__':
     unittest.main()
