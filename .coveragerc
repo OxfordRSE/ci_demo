@@ -1,0 +1,4 @@
+[run]
+source = ci_demo
+omit =
+    ci_demo/tests/*
