@@ -15,5 +15,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-        
-## Add anything I want here
+
+## Some info here
+
+Documentation about my project:
+
+```python
+code example here?
+```
