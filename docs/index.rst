@@ -10,6 +10,10 @@ Welcome to CI demo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   install
+   quickstart
+   reference
+
 
 
 Indices and tables
